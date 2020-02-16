@@ -23,7 +23,7 @@ pipeline
         {
             steps
             {
-                   sh 'mvn tet'
+                   sh 'mvn test'
             }
          
         }
